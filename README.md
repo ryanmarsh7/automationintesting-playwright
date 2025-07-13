@@ -15,6 +15,9 @@ I am running headless and multi browser (for which Playwright is renowned for) a
 I have kept the html file of the E2E test passing for Chrome and Safari, but failing for fire fox. You can see the screen prints and video.
 The tools used for Playwright are Visual Studio Code 2, I have used Github for version control, Docker for creating a jenkins container with NodeJS and running containerized pipeline jobs.
 Jenkins is my CI/CD tool of choice - open source and well supported.
+The tests are labelled as test and can all be executed via npx playwright test.
+The user can also execute by npx playwrigth test -g "test name"
+I have also used the test.describe which is used fro creating suites
 
 Issues reported:
   Critical
